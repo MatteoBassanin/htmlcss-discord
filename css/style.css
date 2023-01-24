@@ -11,8 +11,7 @@ body{
 .header_top{   
     background-color:#255EE9;
     height: 50px;
-    color: white;
-    
+    color: white;   
 }
 
 nav{
@@ -50,8 +49,7 @@ a{
     width: 60%;
     height: 70%;   
     text-align: center;
-    padding: 10px; 
-    
+    padding: 10px;  
 }
 
 .text_header p{
@@ -82,7 +80,6 @@ a.button.white{
 
 .button.purple{
     background-color: #7289DA;
-
 }
 
 a.button.black{
@@ -142,14 +139,12 @@ a.button.black{
 
 .container.grey{
     background-color: #F6F6F6;;
-    padding: 30px 0;
-   
+    padding: 30px 0;  
 }
 
 .section_bot{ 
     min-height: 800px;
-    text-align: center;  
-    
+    text-align: center;   
 }
 
 .section_bot > h3,.section_bot > h2{
@@ -159,8 +154,7 @@ a.button.black{
 
 .container_black_top{
     background-color:#23272A;
-    padding: 10px 0 30px;
-    
+    padding: 10px 0 30px;  
 }
 
 .container.top{
@@ -217,9 +211,13 @@ footer ul{
     list-style: none;
 }
 
+.purple-text.title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 .purple-text{
     color: #7188D9;
-    font-size: 20px;
 }
 
 .social > img{
