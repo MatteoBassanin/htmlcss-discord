@@ -102,6 +102,16 @@ a.button.white{
     font-size: 20px;
 }
 
+.button.purple.down::before{
+    content: "\2193";
+    font-size: 20px;
+}
+
+.button.purple{
+    background-color: #7289DA;
+
+}
+
 a.button.black{
     background-color: black;
     color: white;
@@ -153,14 +163,15 @@ a.button.black{
 }
 
 .container.grey{
-    background-color: grey;
+    background-color: #F6F6F6;;
     padding: 30px 0;
    
 }
 
 .section_bot{ 
-    min-height: 400px;
-    background-color: green;   
+    min-height: 800px;
+    text-align: center;  
+    
 }
 
 .container_black_top{
