@@ -36,6 +36,7 @@ nav{
 a{
     text-decoration: none;
     color: white;
+    margin-right: 10px;
 }
 
 .header_bot{    
@@ -157,7 +158,7 @@ a.button.black{
 }
 
 .container_black_top{
-    background-color:black;
+    background-color:#23272A;
     padding: 10px 0 30px;
     
 }
@@ -183,17 +184,28 @@ a.button.black{
     margin: auto;
 }
 
+i{
+    margin: 10px 0 0 10px;
+}
+
+span::after{
+    content:"\25BF";
+    font-size: 20px;
+    padding-left: 5px;
+}
+
 .container_black_bottom{
-    background-color: black;
+    background-color: #23272A;
     padding-top: 10px;
-    border-top: 1px solid white;
+    margin: auto;
 }
 
 .container_bottom{
     display: flex;
     justify-content: space-between;
-    height: 30px;
-    padding-bottom: 0;
+    border-top: 1px solid #7188D9;
+    align-items: center;
+    min-height: 100px;
 }
 
 footer{
@@ -203,7 +215,6 @@ footer{
 
 footer ul{
     list-style: none;
-    
 }
 
 .purple-text{
