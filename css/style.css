@@ -37,6 +37,7 @@
 .header_top{   
     background-color:#255EE9;
     height: 50px;
+    
 }
 
 nav{
@@ -52,17 +53,22 @@ nav{
     display: flex;
 }
 
+
 .link_top{
     list-style: none;
     padding: 5px;
 }
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .header_bot{    
-    height: 350px;
+    min-height: 400px;
     background-image: url("../img/jumbo.png");
     background-size: cover;
+    color: white;
 }
 
 .text_header{
@@ -70,8 +76,14 @@ nav{
     height: 70%;   
     text-align: center;
     padding: 10px; 
-    color: white;
+    
 }
+
+.text_header p{
+    line-height: 30px;
+    padding: 5px;
+}
+
 
 .header_bot{
     display: flex;
@@ -90,7 +102,7 @@ a.button.black{
 }
 
 .button{
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 5px;
 }
 
