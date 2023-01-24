@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* debug */
 
 .debug_pic {
@@ -18,15 +23,15 @@
     
 }
 
-.debug.list{
+/* .debug.list{
     background-color: coral;
     border: 1px solid white;
-}
+} */
 
 
-.debug.social{
-    background-color: hotpink;
-}
+/* .debug.social{
+    background-color:#23272A;
+} */
 
 .debug{
     height: 300px;
@@ -210,7 +215,29 @@ a.button.black{
 .container_bottom{
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
     height: 30px;
     padding-bottom: 0;
+}
+
+footer{
+    background-color:#23272A;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    
+}
+
+.purple-text{
+    color: #7188D9;
+    font-size: 20px;
+}
+
+.social > img{
+    height: 15px;
+}
+
+.list{
+    line-height: 30px;
 }
