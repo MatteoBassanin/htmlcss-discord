@@ -7,15 +7,15 @@
 /* debug */
 
 .debug_pic {
-    width: 70%;
+    width: 60%;
     height: 300px;
-    background-color: red;    
+      
 }
 
 .debug_text {
-    width: 30%;
+    width: 40%;
     height: 300px;
-    background-color: yellow;    
+    
 }
 
 .debug.list{
@@ -37,6 +37,7 @@
 .header_top{   
     background-color:#255EE9;
     height: 50px;
+    color: white;
     
 }
 
@@ -96,6 +97,11 @@ a.button.white{
     color: black;
 }
 
+.button.white.down::before{
+    content: "\2193";
+    font-size: 20px;
+}
+
 a.button.black{
     background-color: black;
     color: white;
@@ -111,6 +117,34 @@ a.button.black{
     justify-content: center;
     align-items: center;
     min-height: 500px;   
+}
+
+.section_img{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img_one{
+    background-image: url(../img/item1.svg);   
+}
+
+#img_two{
+    background-image: url(../img/item2.svg);   
+}
+
+#img_three{
+    background-image: url(../img/item3.svg);   
+}
+
+.section_text{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.section_text > p{
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .section_white ,.section_grey , .section_bot , .foot_top{
